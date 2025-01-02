@@ -9,9 +9,19 @@ const MobileNavbar: React.FC = () => {
   const toggleExpansion = () => setIsExpanded((prev) => !prev);
 
   if (isExpanded) {
-    return <ExpandNavModal toggleExpansion={toggleExpansion} />;
+    return (
+      <ExpandNavModal
+        toggleExpansion={toggleExpansion}
+        isExpanded={isExpanded}
+      />
+    );
   } else {
-    return <DefaultNavbar toggleExpansion={toggleExpansion} />;
+    return (
+      <DefaultNavbar
+        toggleExpansion={toggleExpansion}
+        isExpanded={isExpanded}
+      />
+    );
   }
 };
 
