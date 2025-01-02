@@ -19,3 +19,9 @@ export const navbarItems = [
     ],
   },
 ];
+
+export const mobileNavbarItems = [
+  {id: 2, isIcon: true, icon: "/global-search.png", alt: "Global Search"},
+  {id: 3, isIcon: true, icon: "/heart.png", alt: "Favorites"},
+  {id: 4, label: "Cart", href: ""},
+]
