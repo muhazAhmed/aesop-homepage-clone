@@ -1,12 +1,12 @@
-export const newSessionStorage = (key: string, value: any) => {
+export function newSessionStorage<T>(key: string, value: T): void {
   sessionStorage.setItem(key, JSON.stringify(value));
-};
+}
 
 export const deleteSessionStorage = (key: string) => {
   sessionStorage.removeItem(key);
 };
 
-export const useSessionStorage = (key: string) => {
+export const fetchSessionStorage = (key: string) => {
   const items = sessionStorage.getItem(key);
   return items ? JSON.parse(items) : null;
 };
@@ -14,9 +14,9 @@ export const useSessionStorage = (key: string) => {
 export const fetchIfCookieShowed = ({
   setCookieModal,
 }: {
-  setCookieModal: any;
+  setCookieModal: React.Dispatch<React.SetStateAction<boolean>>;
 }) => {
-  const cookie = useSessionStorage("ABTastySessionHitHistory");
+  const cookie = fetchSessionStorage("ABTastySessionHitHistory");
   if (cookie === "dismissed") {
     setCookieModal(false);
   } else {
@@ -25,7 +25,11 @@ export const fetchIfCookieShowed = ({
   }
 };
 
-export const handleDismiss = ({ setCookieModal }: { setCookieModal: any }) => {
+export const handleDismiss = ({
+  setCookieModal,
+}: {
+  setCookieModal: React.Dispatch<React.SetStateAction<boolean>>;
+}): void => {
   setCookieModal(false);
   newSessionStorage("ABTastySessionHitHistory", "dismissed");
 };

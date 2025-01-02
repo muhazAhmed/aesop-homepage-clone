@@ -9,9 +9,9 @@ const CookieModal = ({ setCookieModal }: { setCookieModal: () => void }) => {
           A note on privacy
         </h2>
         <p className="leading-5 text-[14px]">
-          By choosing 'Accept all cookies', you agree to the storing of cookies
-          on your device to enhance site navigation, analyse site usage, and
-          assist in our marketing efforts.
+          By choosing &apos;Accept all cookies&apos;, you agree to the storing
+          of cookies on your device to enhance site navigation, analyse site
+          usage, and assist in our marketing efforts.
           <a className="ml-[5px] border-b-[1px] border-black hover:border-0 cursor-pointer">
             View cookies policy
           </a>
