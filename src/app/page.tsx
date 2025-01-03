@@ -1,10 +1,13 @@
 "use client";
 
-export default function Home() {
+// import FestiveSection from "@/components/FestiveSection";
+import Hero from "@/components/hero/Hero";
 
+export default function Home() {
   return (
     <div className="relative w-full h-full">
-      Landing page
+      <Hero />
+      {/* <FestiveSection /> */}
     </div>
   );
 }
