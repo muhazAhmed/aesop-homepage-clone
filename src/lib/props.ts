@@ -16,3 +16,12 @@ export type ButtonProp = {
     iconClassName?: string
     style?: React.CSSProperties
 }
+
+export interface PaginationProps {
+    currentPage: number;
+    totalPages: number;
+    handleNext: () => void;
+    handlePrev: () => void;
+    isPlaying: boolean;
+    togglePlayPause: () => void;
+}
