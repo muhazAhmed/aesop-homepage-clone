@@ -14,7 +14,7 @@ const Button: FC<ButtonProp> = ({
 }) => {
   return (
     <div
-      className={`${className} btn-${variant} cursor-pointer flex items-center justify-center relative gap-4 py-[12px] w-full rounded-[2px] hover:bg-[#70706C]`}
+      className={`${className} btn-${variant} cursor-pointer flex items-center justify-center relative gap-4 py-[12px] w-full rounded-[2px]`}
       onClick={onClick}
       style={style}
     >
