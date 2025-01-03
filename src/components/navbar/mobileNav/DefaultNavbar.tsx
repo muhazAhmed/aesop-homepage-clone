@@ -8,14 +8,14 @@ const DefaultNavbar: React.FC<{
   isExpanded: boolean;
 }> = ({ toggleExpansion, isExpanded }) => {
   return (
-    <div className="w-full p-[20px] flex items-center sticky top-0 bg-transparent z-[1000]">
-      <div className="w-full flex items-center justify-between mt-[10px]">
+    <div className="w-full p-[5px] pt-0 flex items-center top-0 bg-transparent z-[1000] absolute text-textPrimary">
+      <div className="w-full flex items-center justify-between">
         <Image
-          src="/logo.png"
+          src="/nav-logo.png"
           alt="Logo"
-          width={50}
-          height={50}
-          className="cursor-pointer w-auto"
+          width={80}
+          height={80}
+          className="cursor-pointer"
           priority
         />
 
@@ -23,7 +23,7 @@ const DefaultNavbar: React.FC<{
           {mobileNavbarItems?.map((item, index) =>
             item.isIcon ? (
               <Image
-                className="cursor-pointer"
+                className="cursor-pointer text-textPrimary"
                 src={item.icon}
                 alt={item.alt || "icon"}
                 width={16}
@@ -34,7 +34,7 @@ const DefaultNavbar: React.FC<{
             ) : (
               <button
                 key={index}
-                className="text-sm text-footerBlack font-medium"
+                className="text-sm text-textPrimary font-medium"
               >
                 {item.label}
               </button>
@@ -47,7 +47,11 @@ const DefaultNavbar: React.FC<{
           onClick={toggleExpansion}
           aria-label="Expand navigation"
         >
-          {isExpanded ? <IoIosClose className="text-3xl" /> : <HiBars2 />}
+          {isExpanded ? (
+            <IoIosClose className="text-3xl text-black" />
+          ) : (
+            <HiBars2 />
+          )}
         </button>
       </div>
     </div>

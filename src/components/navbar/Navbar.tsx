@@ -19,7 +19,13 @@ const Navbar = () => {
     return null;
   }
 
-  return isMobile ? <MobileNavbar /> : <DesktopNavbar />;
+  return isMobile ? (
+    <div className="relative w-full">
+      <MobileNavbar />
+    </div>
+  ) : (
+    <DesktopNavbar />
+  );
 };
 
 const DesktopNavbar = () => (
