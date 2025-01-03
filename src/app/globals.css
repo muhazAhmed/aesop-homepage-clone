@@ -26,18 +26,26 @@ body {
 .btn-primary {
   background-color: var(--darkBanner);
   color: var(--primary);
-}
-
-.btn-secondary {
-  background-color: transparent;
-  border: 1px solid var(--darkBanner);
-  color: var(--darkBanner);
-  border-radius: 2px;
   transition: all 0.3s ease-in-out;
 }
 
 .btn-primary:hover {
-  background-color: var(--darkBanner);
+  background-color: #70706c;
+  color: var(--primary);
+  border: 1px solid transparent;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  color: var(--darkBanner);
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+  padding: 15px;
+}
+
+.btn-secondary:hover {
+  background-color: var(--darkBanner) !important;
   color: var(--primary);
   border: 1px solid transparent;
 }
