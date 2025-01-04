@@ -63,3 +63,22 @@ export const heroPaginationItems = [
     href: "",
   },
 ];
+
+export const aromaSection = [
+  {
+    id: 1,
+    title: "Six aromatic encounters",
+    content:
+      "Fragrance Anthology Volume I invites curious noses to explore and experience our range of unorthodox aromas, from the fresh to the floral, the woody and the opulent.",
+    imgUrl:
+      "https://www.aesop.com/u1nb1km7t5q7/UNC2CaQtqARmMN0LO9DCc/bb34ebc74d72ea79ce7f7f7d0dac4ebc/Aesop_Fragrance_Anthology_Volume_I_Web_Homepage_Secondary_Mid_Desktop_2560x1440px.jpg",
+  },
+  {
+    id: 2,
+    title: "Home gifts",
+    content:
+      "From hand care to home fragrances, explore a curation of products that are ideal for hospitable hosts, the house-proud or the recently moved in.",
+    videoUrl:
+      "https://videos.ctfassets.net/u1nb1km7t5q7/6zoc46Ksxu0R9C0Xc6LaCn/9f5ac4f239da5914926b403fae67d4f2/Aesop_Gift_Kits_2024-25_Web_Homepage_Secondary_Gifts_for_Home_1920x1080px.mp4.mp4",
+  },
+];
