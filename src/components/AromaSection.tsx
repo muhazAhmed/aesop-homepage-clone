@@ -11,7 +11,7 @@ const AromaSection = () => {
             <img
               src={item?.imgUrl}
               alt="Image"
-              className="w-full mb-5 cursor-pointer scale-y-125"
+              className="w-full mb-5 cursor-pointer scale-y-125 lg:scale-y-100"
             />
           )}
           {item?.videoUrl && (
