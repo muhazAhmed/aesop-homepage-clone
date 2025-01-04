@@ -24,7 +24,7 @@ const Pagination: FC<PaginationProps> = ({
       />
       {isPlaying ? (
         <IoMdPause
-          className="text-lg cursor-pointer"
+          className="text-lg cursor-pointer absolute right-5 top-2 lg:static"
           onClick={togglePlayPause}
         />
       ) : (
