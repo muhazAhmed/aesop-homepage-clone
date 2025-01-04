@@ -21,7 +21,7 @@ export const navbarItems = [
 ];
 
 export const mobileNavbarItems = [
-  { id: 2, isIcon: true, icon: "/global-search.png", alt: "Global Search" },
+  { id: 2, isIcon: true, icon: "/nav-search.png", alt: "Global Search" },
   { id: 3, isIcon: true, icon: "/heart.png", alt: "Favorites" },
   { id: 4, label: "Cart", href: "" },
 ];
@@ -54,7 +54,7 @@ export const heroPaginationItems = [
     title: "Corporate gifts",
     content:
       "Find a variety of gift-giving options, ideal for honouring treasured colleagues and clients. Trained consultants will be pleased to guide your selections and assist with delivery.",
-      imageUrl:
+    imageUrl:
       "https://www.aesop.com/u1nb1km7t5q7/1u7HJKpzglOvTtyRPTqQMm/5eaf79549a3692049b0692d8aca0d2f6/Aesop_Corporate_Gifting_AU_Web_Homepage_Secondary_50-50_Desktop_1440x1500px.jpg",
     buttonLabel: "Learn more about this service",
     href: "",
