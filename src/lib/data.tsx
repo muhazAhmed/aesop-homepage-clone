@@ -1,3 +1,6 @@
+import { IoSearchSharp } from "react-icons/io5";
+import { FaRegHeart } from "react-icons/fa";
+
 export const navbarItems = [
   { id: 1, label: "New & Notable", href: "" },
   { id: 2, label: "Gifts", href: "" },
@@ -21,8 +24,8 @@ export const navbarItems = [
 ];
 
 export const mobileNavbarItems = [
-  { id: 2, isIcon: true, icon: "/nav-search.png", alt: "Global Search" },
-  { id: 3, isIcon: true, icon: "/heart.png", alt: "Favorites" },
+  { id: 2, isIcon: true, icon: <IoSearchSharp />, alt: "Global Search" },
+  { id: 3, isIcon: true, icon: <FaRegHeart />, alt: "Favorites" },
   { id: 4, label: "Cart", href: "" },
 ];
 
