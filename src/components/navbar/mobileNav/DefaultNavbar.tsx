@@ -23,6 +23,7 @@ const DefaultNavbar: React.FC<{
           {mobileNavbarItems?.map((item, index) =>
             item.isIcon ? (
               <button
+                key={index}
                 className={isExpanded ? "text-footerBlack" : "text-textPrimary"}
               >
                 {item?.icon}
