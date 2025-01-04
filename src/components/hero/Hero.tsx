@@ -99,8 +99,8 @@ const Hero = () => {
                 onEnded={handleNext}
               />
             ) : (
-              <Image
-                src={heroPaginationItems[currentPage - 1]?.imageUrl || ""}
+              <img
+                src={heroPaginationItems[currentPage - 1]?.imageUrl}
                 alt="Hero content"
                 className="w-full h-[57vh] lg:h-[90vh] object-cover"
               />
