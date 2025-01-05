@@ -82,3 +82,41 @@ export const aromaSection = [
       "https://videos.ctfassets.net/u1nb1km7t5q7/6zoc46Ksxu0R9C0Xc6LaCn/9f5ac4f239da5914926b403fae67d4f2/Aesop_Gift_Kits_2024-25_Web_Homepage_Secondary_Gifts_for_Home_1920x1080px.mp4.mp4",
   },
 ];
+
+export const PodiumData = [
+  {
+    id: 1,
+    imgUrl:
+      "https://www.aesop.com/u1nb1km7t5q7/6zG3G1hBdkLebFmYxmJR6X/04908764c522b4da6f88d8cd6b690536/Aesop_Bundles_Festive_Bundles_GL_2024_Hand_Balm_Trio_Web_Front_Large_1800X1093px.png",
+    title: "Aromatique Hand Balm Trio",
+    content: "Three hydrating hand balms, unique in aroma",
+  },
+  {
+    id: 2,
+    imgUrl:
+      "https://www.aesop.com/u1nb1km7t5q7/gK70UK0cUqX2HjWYYEADL/5bb0fa22d0433792cac699241bbfaeae/Aesop_Home_Ptolemy_Aromatique_Candle_Web_Front_Large_1800x1573px.png",
+    title: "Ptolemy Aromatique Candle",
+    content: "A sensuous blend of leather, smoke and wood",
+  },
+  {
+    id: 3,
+    imgUrl:
+      "https://www.aesop.com/u1nb1km7t5q7/49zAX8areSn5M6MzW8VgU6/cd59141080e11df31ca99a148ac94d49/Aesop_Kits_Reverence_Duet_Web_Front_A_Large_1800x1093px.png",
+    title: "Reverence Duet",
+    content: "A sumptuous pairing for hands",
+  },
+  {
+    id: 4,
+    imgUrl:
+      "https://www.aesop.com/u1nb1km7t5q7/3t4Pw4CMMF5ULshh61MaYK/e3b85a9c802815533f1b70664aa6c5d6/Aesop_Skin_Lucent_Facial_Concentrate_60mL_Web_Front_Large_900x878px.png",
+    title: "Lucent Facial Concentrate",
+    content: "A Vitamin C-rich layering serum",
+  },
+  {
+    id: 5,
+    imgUrl:
+      "https://www.aesop.com/u1nb1km7t5q7/6XK2lvnK9rno0Keq5zyYVB/b9f6917829d091f3ea55b207b3138f8b/Aesop_Home_Bronze_Incense_Holder_Web_Front_A_Large_1800x752px.png",
+    title: "Bronze Incense Holder",
+    content: "Suited to any interior",
+  },
+];
