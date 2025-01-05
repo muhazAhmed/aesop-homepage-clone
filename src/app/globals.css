@@ -4,6 +4,13 @@
 @import '~slick-carousel/slick/slick.css';
 @import '~slick-carousel/slick/slick-theme.css';
 
+@font-face {
+  font-family: "Bodoni Six ITC";
+  src: url("/fonts/bodoni-six-itc-bold-italic-os-5871d33e4dc4a.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
+}
+
 :root {
   --primary: #fffef2;
   --darkBanner: #333333;

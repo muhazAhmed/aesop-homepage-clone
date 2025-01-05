@@ -37,7 +37,7 @@ const Podium = () => {
   };
 
   return (
-    <div className="pt-[150px] pb-[75px] w-full relative group">
+    <div className="py-[75px] w-full relative group">
       <div className="relative mx-auto">
         <Slider {...settings} ref={sliderRef}>
           {PodiumData.map((item) => (

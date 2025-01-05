@@ -82,7 +82,7 @@ const Hero = () => {
               <Button
                 label={heroPaginationItems[currentPage - 1]?.buttonLabel || ""}
                 variant="secondary"
-                className="w-[93%] lg:max-w-[300px] justify-between py-[25px] font-[600] text-[14px]"
+                className="w-[95%] lg:max-w-[300px] justify-between py-[25px] font-[600] text-[14px] mb-5 lg:mb-0"
                 Icon={<IoIosArrowRoundForward className="text-2xl" />}
                 iconPosition="right"
               />

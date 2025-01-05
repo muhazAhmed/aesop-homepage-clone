@@ -25,3 +25,18 @@ export interface PaginationProps {
     isPlaying: boolean;
     togglePlayPause: () => void;
 }
+
+export interface ImageWithDescriptionProps {
+    data: ImageWithDescriptionDataProp
+    ImagePosition: "left" | "right"
+    ImageHasSlider?: boolean
+}
+
+type ImageWithDescriptionDataProp = {
+    title: string
+    subTitle: string
+    content: string
+    imgUrl?: string
+    videoUrl?: string
+    buttonLabel: string
+}

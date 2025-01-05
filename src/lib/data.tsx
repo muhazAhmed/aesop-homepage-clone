@@ -120,3 +120,24 @@ export const PodiumData = [
     content: "Suited to any interior",
   },
 ];
+
+export const certificationData = [
+  {
+    id: 1,
+    title: "Certified B Corp",
+    content:
+      "We meet the highest verified standards of social and environmental performance, transparency and accountability.",
+  },
+  {
+    id: 2,
+    title: "Leaping Bunny approved",
+    content:
+      "Our formulations are approved as cruelty free under the Cruelty Free International Leaping Bunny programme.",
+  },
+  {
+    id: 3,
+    title: "PETA recognition",
+    content:
+      "We appear on PETA's internationally recognised vegan and cruelty-free lists.",
+  },
+];

@@ -14,6 +14,9 @@ export default {
         heroBanner: "#F6F5E8",
         textPrimary: "#FFFEF2",
       },
+      fontFamily: {
+        bodoni: ['"Bodoni Six ITC"', '"Zapf Humanist"', "serif"],
+      },
     },
   },
   plugins: [],
