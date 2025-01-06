@@ -8,6 +8,7 @@ import OnlinePerks from "@/components/OnlinePerks";
 import CorporateGifts from "@/components/CorporateGifts";
 import Thought from "@/components/Thought";
 import Certification from "@/components/Certification";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <CorporateGifts />
       <Thought />
       <Certification />
+      <Footer/>
     </div>
   );
 }

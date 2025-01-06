@@ -40,3 +40,12 @@ type ImageWithDescriptionDataProp = {
     videoUrl?: string
     buttonLabel: string
 }
+
+export interface ListSectionProps {
+    title: string;
+    items?: { text: string; href: string }[];
+    isText?: boolean;
+    content?: string;
+    learnMoreHref?: string;
+    className?: string
+}

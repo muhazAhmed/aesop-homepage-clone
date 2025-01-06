@@ -141,3 +141,62 @@ export const certificationData = [
       "We appear on PETA's internationally recognised vegan and cruelty-free lists.",
   },
 ];
+
+export const footerItems = [
+  {
+    title: "Orders and support",
+    items: [
+      { text: "Contact us", href: "#" },
+      { text: "FAQs", href: "#" },
+      { text: "Shipping", href: "#" },
+      { text: "Returns", href: "#" },
+      { text: "Order history", href: "#" },
+      { text: "Check gift card balance", href: "#" },
+      { text: "Terms and conditions", href: "#" },
+    ],
+  },
+  {
+    title: "Services",
+    items: [
+      { text: "Live assistance", href: "#" },
+      { text: "Corporate gifts", href: "#" },
+      { text: "Facial Appointments", href: "#" },
+      { text: "Click and Collect", href: "#" },
+      { text: "Video consultation", href: "#" },
+    ],
+  },
+  {
+    title: "Location preferences",
+    items: [
+      { text: "Shipping: Hong Kong, SAR", href: "#" },
+      { text: "Language: English, 繁體中文", href: "#" },
+    ],
+  },
+  {
+    title: "Sustainability",
+    isText: true, // Flag to indicate this section contains plain text instead of a list
+    content: `All Aesop products are vegan, and we do not test our formulations or ingredients on animals. We are Leaping Bunny approved and a Certified B Corporation. `,
+    learnMoreHref: "#",
+  },
+  {
+    title: "About",
+    items: [
+      { text: "Our story", href: "#" },
+      { text: "Foundation", href: "#" },
+      { text: "Careers", href: "#" },
+      { text: "Privacy policy", href: "#" },
+      { text: "Accessibility", href: "#" },
+      { text: "Cookie Policy", href: "#" },
+    ],
+  },
+  {
+    title: "Social Media",
+    items: [
+      { text: "Instagram", href: "#" },
+      { text: "Twitter", href: "#" },
+      { text: "LinkedIn", href: "#" },
+      { text: "WeChat", href: "#" },
+      { text: "Weibo", href: "#" },
+    ],
+  },
+];
