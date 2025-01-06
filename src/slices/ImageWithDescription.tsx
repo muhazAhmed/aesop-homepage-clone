@@ -34,7 +34,7 @@ const ImageWithDescription: FC<ImageWithDescriptionProps> = ({
   };
 
   return (
-    <div className="h-screen w-full flex flex-col lg:flex-row justify-between py-[75px]">
+    <div className="h-screen w-full flex flex-col-reverse lg:flex-row justify-between py-[75px] gap-4 lg:gap-0">
       {isImageLeft && renderMedia()}
 
       <div
